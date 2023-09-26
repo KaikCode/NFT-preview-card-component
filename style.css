@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Outfit';
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    box-shadow: 5px rgba(0, 0, 0, 0.093);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.first_img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.user_nick {
+    color: white;
+    padding: 20px 0px 20px 0;
+    font-weight: 600;
+}
+
+.user_nick:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.container_p {
+    color: hsl(215, 51%, 70%);
+}
+
+.container_2 {
+    padding: 0px 0 20px 0;
+}
+
+.container_m {
+    margin-left: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon > .clock {
+    margin-left: 30%;
+}
+
+hr {
+    margin: 15px 0 15px 0;
+    opacity: 0.20;
+}
+
+.avatar {
+    width: 30px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100%
+}
+
+.user_name {
+    color: hsl(0, 0%, 100%);
+}
+
+.user_name:hover {
+    color: hsl(178, 100%, 50%) ;
+}
+
+.user_nick, .user_name {
+    cursor: pointer;
+}
+
+@media screen and (width: 397px) {
+    .card {
+        background-color: hsl(216, 50%, 16%);
+        width: 250px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 15px;
+    }
+    .main_container {
+        margin-top: auto;
+        height: auto;
+    }
+}
